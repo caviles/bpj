@@ -41,7 +41,17 @@
                 
                 }
                 
+            }).when('/access_token', {
+                templateUrl: 'views/login.html',
+                controller: 'app.authentication.AuthenticationController',
+                controllerAs: 'vm',
+                resolve: {
+
+                }
+
             });
+
+        
 
     }
 
