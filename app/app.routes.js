@@ -13,14 +13,14 @@
     function config($routeProvider, $locationProvider) {
         $routeProvider
             .when('/', {
-            templateUrl: '/views/main.html',
+            templateUrl: 'views/main.html',
             controller: 'app.token.TokenController',
             controllerAs: 'vm',
             resolve: {
                 hello: hello
             }
         }).when('/login', {
-            templateUrl: '/views/login.html',
+            templateUrl: 'views/login.html',
             controller: 'app.authentication.AuthenticationController',
             controllerAs: 'vm',
             resolve: {}
