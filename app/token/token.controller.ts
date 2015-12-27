@@ -15,21 +15,22 @@ module app.token {
             '$scope',
             '$rootScope',
             '$location',
-            '$http'//,
-            //'$cookies',
-           // 'app.services.TokenService'
+            '$http',
+            'app.services.CookieService'
+
         ];
+
 
         constructor(
             private $scope: angular.IScope,
             private $rootScope: angular.IRootScopeService,
             private $location: angular.ILocationService,
-            private $http: angular.IHttpService//,
-          //  private $cookies: angular.cookies.ICookiesService
+            private $http: angular.IHttpService,
+            private cookies: app.services.ICookieService
            // private tokenService: app.services.ITokenService
         ) {
-
-          //  this.getToken();
+            console.log('token ' + this.cookies.getToken());
+            
         }
 
         
