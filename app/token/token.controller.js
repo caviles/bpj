@@ -5,13 +5,13 @@ var app;
     (function (token) {
         'use strict';
         var TokenController = (function () {
-            function TokenController($scope, $rootScope, $location, $http //,
-                ) {
+            function TokenController($scope, $rootScope, $location, $http, cookies) {
                 this.$scope = $scope;
                 this.$rootScope = $rootScope;
                 this.$location = $location;
                 this.$http = $http;
-                //  this.getToken();
+                this.cookies = cookies;
+                console.log('token ' + this.cookies.getToken());
             }
             TokenController.prototype.getToken = function () {
                 //   this.tokenService.getToken();
@@ -21,7 +21,8 @@ var app;
                 '$scope',
                 '$rootScope',
                 '$location',
-                '$http' //,
+                '$http',
+                'app.services.CookieService'
             ];
             return TokenController;
         })();
