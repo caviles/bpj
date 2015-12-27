@@ -9,14 +9,19 @@ module app.authentication {
     }
 
     class AuthenticationController implements IAuthentication {
+
+        tokenName: string = 'access_token';
+
         static $inject = [
             '$route',
+            '$location',
             'app.services.CookieService'
 
         ];
 
         constructor(
             private $route: angular.route.IRouteService,
+            private $location: angular.ILocaleService,
             private cookies: app.services.ICookieService
 
         ) {
@@ -24,12 +29,15 @@ module app.authentication {
               this.login();
         }
 
-
+       
+        /*
+        slice the url http://caviles.github.io/bpj/index.html#/login#access_token=HehOHQooaUCcS(RBcA4rhw))&expires=86399
+        */
         login() {
-            var routeParams = this.$route.current.params;
+           
             var params = new app.entity.LoginParams();
-            if (routeParams['access_token'])
-                params.accesstoken = routeParams['access_token'];
+            if (location.hash.indexOf(this.tokenName)>0)
+                params.accesstoken = window.location.hash.slice(21).split('&')[0];
             this.cookies.setToken(params.accesstoken);
             console.log(this.cookies.getToken());
         }

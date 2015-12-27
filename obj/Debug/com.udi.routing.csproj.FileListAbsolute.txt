@@ -38,3 +38,5 @@ C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\Microsoft.CodeDom.P
 C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\obj\Debug\com.udi.routing.csprojResolveAssemblyReference.cache
 C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\obj\Debug\com.udi.routing.dll
 C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\obj\Debug\com.udi.routing.pdb
+C:\Users\cesar\Pictures\bpj\obj\Debug\com.udi.routing.dll
+C:\Users\cesar\Pictures\bpj\obj\Debug\com.udi.routing.pdb
