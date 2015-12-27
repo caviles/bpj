@@ -65,7 +65,7 @@
 
                 }
 
-            });
+            }).otherwise({ redirectTo: '/' });
 
         
 

@@ -39,7 +39,7 @@
             controller: 'app.authentication.AuthenticationController',
             controllerAs: 'vm',
             resolve: {}
-        });
+        }).otherwise({ redirectTo: '/' });
     }
     function getRouteParams($route) {
         return $route.current.params;

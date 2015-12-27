@@ -1,15 +1,17 @@
-﻿interface String {
-    format(...replacements: string[]): string;
-}
+﻿(function () {
+    var tokenName = 'access_token';
 
-if (!String.prototype.format) {
-    String.prototype.format = function () {
-        var args = arguments;
-        return this.replace(/{(\d+)}/g, function (match, number) {
-            return typeof args[number] != 'undefined'
-                ? args[number]
-                : match
-                ;
-        });
-    };
-}
+    var setCookie = function (cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    }
+
+    if (location.hash.indexOf(tokenName) > 0)
+        setCookie(tokenName, window.location.hash.slice(15).split('&')[0], 2);
+
+
+    alert('test');
+})();
+
