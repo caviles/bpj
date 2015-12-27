@@ -1,0 +1,40 @@
+f:\projects\routing\com.udi.routing\bin\roslyn\csc.exe
+f:\projects\routing\com.udi.routing\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+f:\projects\routing\com.udi.routing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+f:\projects\routing\com.udi.routing\bin\roslyn\Microsoft.CodeAnalysis.dll
+f:\projects\routing\com.udi.routing\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+f:\projects\routing\com.udi.routing\bin\roslyn\Microsoft.CSharp.Core.targets
+f:\projects\routing\com.udi.routing\bin\roslyn\Microsoft.VisualBasic.Core.targets
+f:\projects\routing\com.udi.routing\bin\roslyn\System.Collections.Immutable.dll
+f:\projects\routing\com.udi.routing\bin\roslyn\System.Reflection.Metadata.dll
+f:\projects\routing\com.udi.routing\bin\roslyn\vbc.exe
+f:\projects\routing\com.udi.routing\bin\roslyn\VBCSCompiler.exe
+f:\projects\routing\com.udi.routing\bin\roslyn\VBCSCompiler.exe.config
+f:\projects\routing\com.udi.routing\bin\com.udi.routing.dll.config
+f:\projects\routing\com.udi.routing\bin\com.udi.routing.dll
+f:\projects\routing\com.udi.routing\bin\com.udi.routing.pdb
+f:\projects\routing\com.udi.routing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+f:\projects\routing\com.udi.routing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+f:\projects\routing\com.udi.routing\obj\Debug\com.udi.routing.dll
+f:\projects\routing\com.udi.routing\obj\Debug\com.udi.routing.pdb
+f:\projects\routing\com.udi.routing\obj\Debug\com.udi.routing.csprojResolveAssemblyReference.cache
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\csc.exe
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\vbc.exe
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\com.udi.routing.dll.config
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\com.udi.routing.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\com.udi.routing.pdb
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\obj\Debug\com.udi.routing.csprojResolveAssemblyReference.cache
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\obj\Debug\com.udi.routing.dll
+C:\Users\cesar\Pictures\bliz new\routing\com.udi.routing\obj\Debug\com.udi.routing.pdb
