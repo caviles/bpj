@@ -10,10 +10,10 @@ var app;
                 this.$cookies = $cookies;
             }
             CookieService.prototype.getToken = function () {
-                return this.$cookies.get("token");
+                return this.$cookies.get("access_token");
             };
             CookieService.prototype.setToken = function (token) {
-                this.$cookies.put("token", token);
+                this.$cookies.put("access_token", token);
             };
             CookieService.$inject = [
                 '$cookies'

@@ -27,11 +27,11 @@ module app.services {
 
        
         getToken(): string {
-            return this.$cookies.get("token");
+            return this.$cookies.get("access_token");
         }
 
         setToken(token: string) {
-            this.$cookies.put("token", token);
+            this.$cookies.put("access_token", token);
         }
 
 
