@@ -29,6 +29,16 @@
             controller: 'app.authentication.AuthenticationController',
             controllerAs: 'vm',
             resolve: {}
+        }).when('login', {
+            templateUrl: 'views/login.html',
+            controller: 'app.authentication.AuthenticationController',
+            controllerAs: 'vm',
+            resolve: {}
+        }).when('access_token', {
+            templateUrl: 'views/login.html',
+            controller: 'app.authentication.AuthenticationController',
+            controllerAs: 'vm',
+            resolve: {}
         });
     }
     function getRouteParams($route) {
