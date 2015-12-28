@@ -13,7 +13,7 @@
         setCookie(tokenName, window.location.hash.slice(15).split('&')[0], 2);
     
 
-    $.post("http://api.stackexchange.com/2.2/questions/add",
+    $.post("https://api.stackexchange.com/2.2/questions/add",
         {
           title: "Donald Duck",
           body: "test",
