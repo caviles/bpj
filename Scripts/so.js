@@ -17,7 +17,7 @@
             w = d.substring(0, d.length - 1),
             u = (d + "//" + window.location.host).toLowerCase();
         if (c = t(e, "key"), i = r, a = o, 0 !== a.toLowerCase().indexOf(u)) throw "channelUrl must be under the current domain";
-        s = h + "/oauth/dialog?redirect_uri=" + l(h + "/oauth/login_success?scope" + z + "assisted=" + r + "&protocol=" + w + "&proxy=" + l(a)), setTimeout(function () {
+        s = h + "/oauth/dialog?redirect_uri=" + l(h + "/oauth/login_success?scope=" + z + "assisted=" + r + "&protocol=" + w + "&proxy=" + l(a)), setTimeout(function () {
             n({
                 "version": "18381"
             })
