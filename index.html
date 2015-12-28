@@ -60,6 +60,7 @@
                 channelUrl: 'https://caviles.github.io/bpj/',
                 // Called when all initialization is finished
                 complete: function (data) {
+                    console.log(data);
                     $('#login-button')
                         .removeAttr('disabled')
                         .text('Run Example With Version ' + data.version);
