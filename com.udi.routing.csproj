@@ -51,6 +51,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="StacMan">
+      <HintPath>packages\StacMan.1.1.2\lib\StacMan.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -65,6 +69,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="views\profile.html" />
+    <Content Include="views\question.html" />
+    <Content Include="views\questions.html" />
     <Content Include="views\login.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\version.json" />
@@ -877,13 +884,19 @@
     <TypeScriptCompile Include="app\authentication\authentication.module.ts" />
     <TypeScriptCompile Include="app\entity\entity.module.ts" />
     <TypeScriptCompile Include="app\entity\entity.service.ts" />
+    <TypeScriptCompile Include="app\profile\profile.controller.ts" />
+    <TypeScriptCompile Include="app\profile\profile.module.ts" />
+    <TypeScriptCompile Include="app\questions\questions.controller.ts" />
+    <TypeScriptCompile Include="app\questions\questions.module.ts" />
+    <TypeScriptCompile Include="app\services\profile.service.ts" />
+    <TypeScriptCompile Include="app\services\questions.service.ts" />
     <TypeScriptCompile Include="app\services\token.service.ts" />
     <TypeScriptCompile Include="app\services\services.module.ts" />
     <TypeScriptCompile Include="app\authentication\authentication.controller.ts" />
     <TypeScriptCompile Include="app\token\token.module.ts" />
     <TypeScriptCompile Include="app\token\token.controller.ts" />
     <TypeScriptCompile Include="app\services\cookie.service.ts" />
-    <TypeScriptCompile Include="app\utils\utils.ts" />
+    <Content Include="app\utils\utils.js" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
@@ -896,7 +909,9 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="app\directives\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -22,6 +22,13 @@ var app;
                 this.cookies.setToken(params.accesstoken);
                 console.log(this.cookies.getToken());
             };
+            AuthenticationController.prototype.logout = function () {
+                var params = new app.entity.LoginParams();
+                if (location.hash.indexOf(this.tokenName) > 0)
+                    params.accesstoken = window.location.hash.slice(15).split('&')[0];
+                this.cookies.setToken(params.accesstoken);
+                console.log(this.cookies.getToken());
+            };
             AuthenticationController.$inject = [
                 '$route',
                 '$location',
