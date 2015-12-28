@@ -69,6 +69,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\so.js" />
     <Content Include="views\profile.html" />
     <Content Include="views\question.html" />
     <Content Include="views\questions.html" />
