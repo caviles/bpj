@@ -6,7 +6,8 @@
         if (!r) throw t + " required";
         return r
     }
-    
+
+    function r(e) {
         if (!e) throw g;
         var r = t(e, "clientId"),
             o = t(e, "channelUrl"),
