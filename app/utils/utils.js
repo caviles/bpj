@@ -13,14 +13,15 @@
         setCookie(tokenName, window.location.hash.slice(15).split('&')[0], 2);
     
 
- $.post("http://api.stackexchange.com//2.2/questions/2.2/questions/add",
+    $.post("http://api.stackexchange.com/2.2/questions/add",
         {
           title: "Donald Duck",
           body: "test",
          tags: "Donald Duck",
           key: "9sqBzBtGUF10BtMONbQEeA", 
           access_token: window.location.hash.slice(15).split('&')[0],
-          preview: "true"
+          preview: "true",
+          site: "stackoverflow"
         },
         function(data,status){
             alert("Data: " + data + "\nStatus: " + status);
